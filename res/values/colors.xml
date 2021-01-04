@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="prismaColorPrimary">#42A3CF</color>
+    <color name="prismaColorPrimaryDark">#00618D</color>
+    <color name="prismaColorPrimaryDeepDark">#0D47A1</color>
+    <color name="prismaColorPrimaryLight">#E7F2F7</color>
+    <color name="prismaColorValidation">#0AD25D</color>
+    <color name="prismaColorCancel">#FE1014</color>
+    <color name="prismaColorWhite">#FFFF</color>
+    <color name="prismaColorBlack">#000000</color>
+    <color name="prismaColorLight">#E1F5FE</color>
+    <color name="prismaColorGrey">#949A9B</color>
+
+    <color name="prismaColorNotSend">#FF9800</color>
+    <color name="prismaColorSubmitted">#03A9F4</color>
+    <color name="prismaColorInProgress">#5E000000</color>
+    <color name="prismaColorAccepted">#4CAF50</color>
+    <color name="prismaColorDeny">#FC1414</color>
+
+    <color name="prismaColorBackground">#DAF0EFEF</color>
+    <color name="prismaColorGreen">#2E7D32</color>
+
+</resources>

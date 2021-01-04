@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="APP_NAME">Note de frais</string>
+
+    <string name="PROFIL">Profil</string>
+    <string name="PROJET">Mes projets</string>
+    <string name="NDF">Mes notes de frais</string>
+    <string name="APPROBATION">Mes approbations</string>
+    <string name="CONTACT">Contact</string>
+    <string name="A_PROPOS">A propos</string>
+    <string name="APPUYER_DE_NOUVEAU_POUR_QUITTER">Appuyer de nouveau pour quitter</string>
+    <string name="CONTACTEZ_NOUS">Contactez-nous</string>
+    <string name="PERMISSION_APPEL">Vous devez autorisez l\'application pour passer un appel</string>
+    <string name="AUCUN_NUMERO">Contact indisponible pour le moment</string>
+    <string name="APPELER_ASSISTANCE">Appeler l\'assistance :</string>
+    <string name="APROPOS_COPYRIGHT">Copyright PrismaSoft  -  Tous droits réservés</string>
+    <string name="APROPOS_TEXT">
+        Avertissement : ce logiciel est protégé par la loi relative aux droits d\'auteur et par les conventions internationales.
+        Toute reproduction ou distribution partielle ou totale de ce logiciel, par quelque moyen que ce soit, est strictement interdite.
+        Toute personne ne respectant pas ces dispositions se rendra coupable du délit de contrefaçon et sera passible des sanctions pénales prévues par la loi.
+    </string>
+
+
+    <string name="AJOUTER">Ajouter</string>
+    <string name="VALIDER">Valider</string>
+    <string name="ANNULER">Annuler</string>
+    <string name="ENVOYER">Envoyer</string>
+    <string name="MODIFIER">Modifier</string>
+    <string name="SOUMETTRE">Soumettre</string>
+    <string name="SUPPRIMER">Supprimer</string>
+    <string name="RECHERCHER">Rechercher</string>
+    <string name="RETOUR">Retour</string>
+    <string name="OUI">oui</string>
+    <string name="NON">non</string>
+    <string name="COMPRIS">J\'ai compris !</string>
+    <string name="TOUT">Tout</string>
+    <string name="VALEUR_ATTENDUE">…</string>
+    <string name="INPUT_MISSING">Renseignez les champs vides</string>
+    <string name="AMOUNT_ERROR">Les totaux ne s\'équivalent pas.</string>
+    <string name="INPUT_CATEGORY_MISSING">Vous devez renseignez les détails du type de dépense</string>
+    <string name="ERROR_SAVE_DEPENSE">Une erreur s\'est produite lors de l\'enregistrement de la dépense</string>
+    <string name="SCAN_ERROR">Certaines informations du ticket n\'ont pas pu être correctement lue. Veuillez vérifier le formulaire avant de le valider</string>
+    <string name="CATEGORIE_DEPENSE">Categorie de dépenses</string>
+
+    <string name="NEW_ENREGISTREMENT">Ajouter un enregistrement</string>
+    <string name="NEW_DEPENSE">Nouvelle dépense pour une note existante</string>
+    <string name="NEW_DEPENSE_HINT">Faire défiler pour sélectionner une note</string>
+    <string name="NEW_NOTE">Nouvelle note de frais</string>
+    <string name="NEW_NOTE_HINT">Exemple : Frais de transports</string>
+    <string name="ENREGISTREMENT">Enregistrement effectué</string>
+    <string name="MESSAGE_MAJ">Etes-vous sûre de vouloir modifier ?</string>
+    <string name="MIS_A_JOUR">Modification effectuée</string>
+    <string name="MESSAGE_SUPPRESSION">Etes-vous sûre de vouloir supprimer ?</string>
+    <string name="SUPPRESSION">Suppression effectuée</string>
+    <string name="PHOTO_AJOUTEE">Image ajoutée</string>
+    <string name="ALERT_AUTORISATION_REQUIS">Vous devez autorisez l\'application pour effectuer cette action</string>
+    <string name="ALERT_AJOUT_NOTE_VIDE_DEPENSE">Ajouter une nouvelle dépense et soumettre la note de frais ?</string>
+    <string name="ALERT_NOTE_INEXISTANT">Aucune note de frais existante pour cette dépense. Souhaitez-vous en créer ?</string>
+    <string name="ALERT_MODIFICATION_RISQUE_PERDU">Toutes modifications non enregistrées seront perdues. Souhaitez-vous quittez ?</string>
+    <string name="ALERT_MAX_PICTURE">Maximum de photos atteint</string>
+    <string name="NEW_PICTURE">Ajouter une photo</string>
+    <string name="SELECTIONNER_MODE">Sélectionner un mode</string>
+    <string name="DEPENSE_DE_TYPE">Dépense de type :</string>
+
+    <string name="CHARGEMENT_DES_DONNEES">Chargement des données</string>
+    <string name="VEUILLEZ_PATIENTER">Veuillez patienter</string>
+    <string name="PATIENTER_COMMUNICATION_SERVEUR">Communication avec le serveur</string>
+    <string name="CHARGEMENT_DES">Chargement de</string>
+    <string name="ERROR_GLOBAL">Une erreur a été rencontré</string>
+    <string name="ERROR_RECUPERATION_DONNEES">Erreur lors de la récupération des données</string>
+    <string name="ERROR_COMMUNICATION_SERVER">Une erreur s\'est produite lors de la communication avec le serveur</string>
+    <string name="AUCUNE_DONNEE">Aucune donnée chargée</string>
+    <string name="AUCUN_PROJET">Aucun projet existant</string>
+    <string name="AUCUNE_NOTE_DE_FRAIS">Aucune note de frais existante</string>
+    <string name="AUCUNE_DEPENSE">Aucune dépense trouvée</string>
+    <string name="AUCUNE_APPROVATION">Aucune approbation pour l\'instant</string>
+
+
+    <string name="ADRESSE_SERVICE">Adresse du service</string>
+    <string name="VEUILLEZ_ENTRER_URL">Veuillez saisir un url</string>
+    <string name="LOGIN_BTN">SE CONNECTER</string>
+    <string name="LOGIN_LBL">Identifiant</string>
+    <string name="PASSWORD_LBL">Mot de passe</string>
+    <string name="IDENTIFIANTS_INCORRECT">Idenfifiants incorrects</string>
+    <string name="DECONNEXION">Se deconnecter</string>
+    <string name="DECONNEXION_REUSSIE">Déconnexion réussie</string>
+
+
+    <string name="NO_RENT">Aucune dépense</string>
+    <string name="RENT">dépense</string>
+    <string name="RENTS">dépenses</string>
+
+
+    <string name="date">Date</string>
+    <string name="description">Description</string>
+    <string name="ttc">Total TTC</string>
+    <string name="ht">Total HT</string>
+    <string name="tva">TVA</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_username">Kevin Durant</string>
+    <string name="nav_header_usermail">durant@yopmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="LBL_INFORMATION">Information</string>
+    <string name="REFERENCE_NOTE">Référence de la note</string>
+    <string name="PROJET_CONCERNE">Projet concerné :</string>
+    <string name="MODE_DE_REGLEMENT">Mode de règlement :</string>
+    <string name="INVITE">Invités</string>
+    <string name="DETAILS_INTERVENTION">Détails de l\'intervention</string>
+    <string name="DUREE">Durée</string>
+    <string name="PRIX_HORAIRE">Prix horaire</string>
+    <string name="DETAILS_OPERATION">Détails de l\'opération</string>
+    <string name="VEHICULE">Vehicule :</string>
+    <string name="LITRAGE">Litrage</string>
+    <string name="DETAILS_KILOMETRAGE">Détails du kilométrage</string>
+    <string name="DISTANCE">Distance</string>
+    <string name="DETAILS_VOL">Détails du vol</string>
+    <string name="NUMERO_DE_VOL">Numéro du vol</string>
+    <string name="DATE_DEPART">Date de départ</string>
+    <string name="DATE_ARRIVEE">Date d\'arrivée</string>
+    <string name="COMPAGNIE">Compagnie</string>
+    <string name="TRAJET">Trajet</string>
+    <string name="DETAILS_SEJOUR">Détails du séjour</string>
+    <string name="NOMBRE_DE_NUIT">Nombre de nuits</string>
+    <string name="DETAILS_TRAJET">Détails du trajet</string>
+    <string name="NUMERO_TRAIN">Numéro du train</string>
+    <string name="DETAILS_DEPENSE">Détails de la dépense</string>
+    <string name="MONTANT_HT">Montant HT</string>
+    <string name="MONTANT_TTC">Montant TTC</string>
+    <string name="MOTANT_TVA">Montant TVA</string>
+    <string name="MONTANT_TAXE">Montant Taxe</string>
+    <string name="DETAILS_LOCATION">Détails de la location</string>
+    <string name="MARQUE_VEHICULE">Marque du véhicule</string>
+    <string name="MODELE_VEHICULE">Modèle de véhicule</string>
+    <string name="LOUEUR">Loueur</string>
+    <string name="ALERT_TOTAL_INCORRECT">Le total ne peut être égal à zézo</string>
+
+
+</resources>

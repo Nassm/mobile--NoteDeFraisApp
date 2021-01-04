@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/item_expensereport">
+
+    <androidx.cardview.widget.CardView
+        android:backgroundTint="@color/prismaColorWhite"
+        android:id="@+id/card_ndf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:elevation="3dp"
+        android:layout_margin="@dimen/dimen_5"
+        card_view:cardCornerRadius="@dimen/dimen_5"
+        android:layout_marginStart="@dimen/dimen_15">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@color/prismaColorPrimaryLight"
+            android:padding="1dp">
+
+            <TextView
+                android:id="@+id/exprName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_1"
+                android:layout_marginStart="@dimen/dimen_3"
+                android:padding="@dimen/dimen_3"
+                android:text="Decembre 2019"
+                android:gravity="left"
+                android:textColor="@color/prismaColorPrimaryDark"
+                android:textStyle="bold"
+                android:textSize="@dimen/dimen_15"
+                android:typeface="sans"
+                android:ellipsize="end"
+                android:maxLines="1"/>
+
+            <View
+                style="@style/AppTheme.SeparateLine"
+                android:id="@+id/tv_exportrentSeparator"
+                android:layout_below="@+id/exprName"
+                android:layout_marginTop="@dimen/dimen_1"
+                android:layout_marginRight="@dimen/dimen_0"
+                android:layout_marginLeft="@dimen/dimen_5"
+                android:layout_marginBottom="@dimen/dimen_5" />
+
+            <RelativeLayout
+                android:id="@+id/rLayoutContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_0"
+
+                android:layout_below="@+id/tv_exportrentSeparator"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/exprState"
+                    android:layout_width="@dimen/dimen_20"
+                    android:layout_height="@dimen/dimen_20"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="@dimen/dimen_3" />
+
+                <LinearLayout
+                    android:id="@+id/exprLyt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_3"
+                    android:layout_marginStart="@dimen/dimen_8"
+                    android:layout_toEndOf="@+id/exprState"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/exprCount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="@dimen/dimen_3"
+                        android:gravity="center"
+                        android:text="1"
+                        android:textColor="@color/prismaColorPrimaryDark"
+                        android:textSize="@dimen/dimen_10"
+                        android:textStyle="bold"
+                        android:typeface="monospace" />
+
+                    <TextView
+                        android:id="@+id/exprCountLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="dépense"
+                        android:textColor="@color/prismaColorPrimaryDark"
+                        android:textSize="@dimen/dimen_10"
+                        android:textStyle="bold"
+                        android:typeface="monospace" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/exprAmount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_1"
+                    android:layout_marginBottom="@dimen/dimen_3"
+                    android:layout_marginEnd="@dimen/dimen_5"
+                    android:layout_toStartOf="@+id/exprCurrency"
+                    android:text="10.00"
+                    android:textSize="@dimen/dimen_20"
+                    android:gravity="center"
+                    android:typeface="monospace"
+                    android:textColor="@color/prismaColorPrimaryDark"
+                    android:drawablePadding="@dimen/dimen_3"/>
+
+                <TextView
+                    android:id="@+id/exprCurrency"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="@dimen/dimen_1"
+                    android:layout_marginBottom="@dimen/dimen_3"
+                    android:layout_marginEnd="@dimen/dimen_20"
+                    android:textSize="@dimen/dimen_15"
+                    android:text="€"
+                    android:gravity="center"
+                    android:typeface="monospace"
+                    android:textColor="@color/prismaColorPrimaryDark"
+                    android:shadowColor="@color/prismaColorPrimaryDeepDark"
+                    android:shadowRadius="5"
+                    android:shadowDx="0.5"
+                    android:shadowDy="0.5"
+                    tools:ignore="RtlHardcoded" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

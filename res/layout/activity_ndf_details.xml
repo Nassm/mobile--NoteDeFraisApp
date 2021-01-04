@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ndf.NdfDetailsActivity">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/dimen_0">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/prismaColorLight">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="@dimen/dimen_3">
+
+                    <ImageButton
+                        style="@style/AppTheme.ImageView"
+                        android:id="@+id/exprcReturn"
+                        android:layout_width="@dimen/dimen_45"
+                        android:layout_height="@dimen/dimen_35"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="@dimen/dimen_5"
+                        android:src="@drawable/ic_back"
+                        android:background="@color/prismaColorLight"/>
+
+                    <ImageButton
+                        style="@style/AppTheme.ImageView"
+                        android:id="@+id/exprcDelete"
+                        android:layout_width="@dimen/dimen_45"
+                        android:layout_height="@dimen/dimen_35"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="@dimen/dimen_5"
+                        android:src="@drawable/ic_delete"
+                        android:background="@color/prismaColorLight"
+                        android:visibility="invisible"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/dimen_3">
+
+                    <ImageView
+                        style="@style/AppTheme.ImageView"
+                        android:id="@+id/exprcEditLogo"
+                        android:layout_width="@dimen/dimen_45"
+                        android:layout_height="@dimen/dimen_40"
+                        android:layout_marginTop="@dimen/dimen_25"
+                        android:layout_marginRight="0dp"
+                        android:layout_marginEnd="@dimen/dimen_15"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:background="@color/prismaColorWhite"
+                        android:padding="@dimen/dimen_8"
+                        android:gravity="center"
+                        android:src="@drawable/ic_edit"
+                        android:layout_marginStart="@dimen/dimen_8"
+                        android:layout_marginLeft="0dp"
+                        tools:ignore="RtlHardcoded" />
+
+                    <LinearLayout
+                        android:id="@+id/exprcEditValue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_toRightOf="@id/exprcEditLogo"
+                        android:gravity="center"
+                        android:foregroundGravity="center"
+                        android:orientation="vertical"
+                        tools:ignore="RtlHardcoded">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <EditText
+                                android:id="@+id/exprcName"
+                                style="@style/AppTheme.EditText"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/dimen_50"
+                                android:textSize="@dimen/dimen_18"
+                                android:hint="@string/REFERENCE_NOTE"
+                                android:textColorHint="@color/prismaColorPrimaryDark"
+                                android:textColorHighlight="@color/prismaColorPrimary"/>
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/dimen_35"
+                            android:layout_gravity="left"
+                            android:orientation="horizontal"
+                            android:layout_marginBottom="@dimen/dimen_5">
+
+
+                            <RelativeLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1">
+
+                                <ImageView
+                                    android:id="@+id/exprcKraft"
+                                    android:layout_width="185dp"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/mainkraft" />
+
+                                <TextView
+                                    android:id="@+id/exprcState"
+                                    android:layout_width="165dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="@dimen/dimen_5"
+                                    android:layout_centerVertical="true"
+                                    android:textColor="@color/prismaColorWhite"
+                                    android:textStyle="italic"
+                                    android:gravity="center"
+                                    android:ellipsize="end"
+                                    android:maxLines="1"
+                                    android:layout_marginLeft="2dp" />
+
+                            </RelativeLayout>
+
+                            <Button
+                                android:id="@+id/exprcSubmit"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@color/prismaColorPrimary"
+                                android:padding="@dimen/dimen_8"
+                                android:textColor="@color/prismaColorWhite" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/exprcTotalRentsLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dimen_8"
+                    android:background="@color/prismaColorPrimaryDark"
+                    android:orientation="horizontal"
+                    android:layout_below="@+id/exprcRentFrame">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="0dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/exprcRentCount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="@dimen/dimen_3"
+                            android:gravity="center"
+                            android:textColor="@color/prismaColorWhite"
+                            android:textSize="@dimen/dimen_15"
+                            android:textStyle="bold"
+                            android:typeface="monospace" />
+
+                        <TextView
+                            android:id="@+id/exprcCountLabel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="dépense"
+                            android:textColor="@color/prismaColorWhite"
+                            android:textSize="@dimen/dimen_15"
+                            android:textStyle="bold"
+                            android:typeface="monospace" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/exprcAmount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_0"
+                        android:layout_marginRight="@dimen/dimen_3"
+                        android:layout_toLeftOf="@+id/exprcCurrency"
+                        android:textSize="@dimen/dimen_15"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:typeface="monospace"
+                        android:textColor="@color/prismaColorWhite"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:drawableTint="@color/prismaColorPrimary"
+                        android:drawablePadding="@dimen/dimen_3"/>
+
+                    <TextView
+                        android:id="@+id/exprcCurrency"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="@dimen/dimen_0"
+                        android:layout_marginRight="@dimen/dimen_10"
+                        android:textSize="@dimen/dimen_15"
+                        android:textStyle="bold"
+                        android:text="€"
+                        android:gravity="center"
+                        android:typeface="monospace"
+                        android:textColor="@color/prismaColorWhite"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        tools:ignore="SpUsage" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/exprcRentFrame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:visibility="gone"
+                    android:id="@+id/exprcNoRentLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true">
+
+                    <ImageView
+                        style="@style/AppTheme.TextViewBig"
+                        android:id="@+id/exprcNoRentLabel"
+                        android:textSize="@dimen/dimen_20"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/no_item"/>
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/exprcAddRentButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_margin="@dimen/dimen_15"
+                        android:layout_marginTop="@dimen/dimen_25"
+                        android:backgroundTint="@color/prismaColorPrimary"
+                        android:src="@drawable/ic_add_expense_report" />
+
+                </RelativeLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/exprcRentListRcvLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:listitem="@layout/item_depense">
+
+                </androidx.recyclerview.widget.RecyclerView>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</FrameLayout>

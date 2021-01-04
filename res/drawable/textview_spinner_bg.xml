@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke
+        android:width="0.6dp"
+        android:color="@color/prismaColorPrimaryDark" />
+
+    <solid android:color="@color/prismaColorBackground" />
+
+    <corners
+        android:radius="5dp"
+        android:topRightRadius="@dimen/dimen_15"
+        android:topLeftRadius="@dimen/dimen_15"
+        android:bottomLeftRadius="@dimen/dimen_15"
+        android:bottomRightRadius="@dimen/dimen_15"/>
+</shape>

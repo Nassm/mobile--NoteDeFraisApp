@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.selection.ItemSelectionFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/itemsAddExprCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_10"
+        android:layout_marginRight="@dimen/dimen_10"
+        android:layout_marginBottom="@dimen/dimen_20"
+        android:layout_marginTop="@dimen/dimen_20"
+        android:backgroundTint="@color/prismaColorPrimaryLight"
+        app:cardCornerRadius="@dimen/dimen_8"
+        android:elevation="@dimen/dimen_3"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dimen_1"
+            android:padding="@dimen/dimen_5">
+
+            <ImageView
+                android:id="@+id/itemsExprLogo"
+                style="@style/AppTheme.ImageView"
+                android:layout_width="@dimen/dimen_25"
+                android:layout_height="@dimen/dimen_25"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="@dimen/dimen_8"
+                android:layout_marginLeft="0dp"
+                android:layout_marginEnd="@dimen/dimen_15"
+                android:layout_marginRight="0dp"
+                android:padding="@dimen/dimen_3"
+                android:src="@drawable/ic_add_expense_report"
+                android:background="@color/prismaColorPrimary"/>
+
+            <LinearLayout
+                android:id="@+id/itemsEditValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/itemsExprLogo"
+                android:layout_toEndOf="@id/itemsExprLogo"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    style="@style/AppTheme.TextViewMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="@string/NEW_NOTE"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textColor="@color/prismaColorPrimaryDark"/>
+
+                <TextView
+                    style="@style/AppTheme.TextViewSmall"
+                    android:id="@+id/itemsExempleLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/NEW_NOTE_HINT"
+                    android:textColor="@color/prismaColorPrimary"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/itemsAddRentCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_10"
+        android:layout_marginRight="@dimen/dimen_10"
+        android:backgroundTint="@color/prismaColorPrimaryLight"
+        tools:targetApi="lollipop"
+        app:cardCornerRadius="@dimen/dimen_12"
+        android:elevation="@dimen/dimen_3"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_1"
+            android:padding="@dimen/dimen_5">
+
+            <ImageView
+                android:id="@+id/itemsRentLogo"
+                style="@style/AppTheme.ImageView"
+                android:layout_width="@dimen/dimen_25"
+                android:layout_height="@dimen/dimen_25"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="@dimen/dimen_8"
+                android:layout_marginLeft="0dp"
+                android:layout_marginEnd="@dimen/dimen_15"
+                android:layout_marginRight="0dp"
+                android:gravity="center"
+                android:src="@drawable/ic_depense"
+                android:background="@color/prismaColorPrimary"/>
+
+            <LinearLayout
+                android:id="@+id/itemsRentEditValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/itemsRentLogo"
+                android:layout_toEndOf="@id/itemsRentLogo"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/AppTheme.TextViewMedium"
+                    android:id="@+id/itemsAddRentLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="@string/NEW_DEPENSE"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textColor="@color/prismaColorPrimaryDark"/>
+
+                <TextView
+                    style="@style/AppTheme.TextViewSmall"
+                    android:id="@+id/itemsAddRentRappel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/itemsAddRentLabel"
+                    android:text="@string/NEW_DEPENSE_HINT"
+                    android:textColor="@color/prismaColorPrimary"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Spinner
+        android:id="@+id/itemSpinnerAddExpr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginLeft="@dimen/dimen_10"
+        android:layout_marginRight="@dimen/dimen_10"
+        android:layout_marginTop="@dimen/dimen_1"
+        android:layout_below="@+id/itemsAddRentExempleLabel"
+        android:background="@drawable/ic_rounded_spinner"
+        android:popupBackground="@drawable/ic_rounded_spinner"
+        android:spinnerMode="dropdown" />
+
+</LinearLayout>

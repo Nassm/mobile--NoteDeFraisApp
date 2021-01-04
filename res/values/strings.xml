@@ -1,0 +1,135 @@
+<resources>
+    <string name="APP_NAME">Note de frais</string>
+
+    <string name="PROFIL">Profil</string>
+    <string name="PROJET">My projects</string>
+    <string name="NDF">My expenses reports</string>
+    <string name="APPROBATION">My approvals</string>
+    <string name="CONTACT">Contact</string>
+    <string name="A_PROPOS">About</string>
+    <string name="APPUYER_DE_NOUVEAU_POUR_QUITTER">Press again to exit</string>
+    <string name="CONTACTEZ_NOUS">Contact us</string>
+    <string name="PERMISSION_APPEL">You must authorize the application to make a call</string>
+    <string name="AUCUN_NUMERO">Contact unavailable at the moment</string>
+    <string name="APPELER_ASSISTANCE">Call for assistance : </string>
+    <string name="APROPOS_COPYRIGHT">Copyright PrismaSoft - All rights reserved</string>
+    <string name="APROPOS_TEXT">Warning: this software is protected by copyright law and by international conventions.
+        Any reproduction or partial or total distribution of this software, by any means whatsoever, is strictly prohibited.
+        Anyone not respecting these provisions will be guilty of the offense of counterfeiting and will be liable to the criminal sanctions provided for by law.
+    </string>
+
+    <string name="AJOUTER">Add</string>
+    <string name="VALIDER">Validate</string>
+    <string name="ANNULER">Cancel</string>
+    <string name="ENVOYER">Send</string>
+    <string name="MODIFIER">Edit</string>
+    <string name="SOUMETTRE">Submit</string>
+    <string name="SUPPRIMER">Delete</string>
+    <string name="RECHERCHER">Search</string>
+    <string name="RETOUR">Back</string>
+    <string name="OUI">yes</string>
+    <string name="NON">no</string>
+    <string name="COMPRIS">I get it !</string>
+    <string name="TOUT">All</string>
+    <string name="VALEUR_ATTENDUE">…</string>
+    <string name="INPUT_MISSING">Fill in the empty fields</string>
+    <string name="AMOUNT_ERROR">The totals are not the same.</string>
+    <string name="INPUT_CATEGORY_MISSING">You must fill in the details of the type of expense</string>
+    <string name="ERROR_SAVE_DEPENSE">An error occurred while recording the expense</string>
+    <string name="SCAN_ERROR">Some ticket information could not be read correctly. Please check the form before validating it</string>
+    <string name="CATEGORIE_DEPENSE">Expenditure category</string>
+
+    <string name="NEW_ENREGISTREMENT">Add a record</string>
+    <string name="NEW_DEPENSE">New expense for an existing note</string>
+    <string name="NEW_DEPENSE_HINT">Scroll to select a note</string>
+    <string name="NEW_NOTE">New expense report</string>
+    <string name="NEW_NOTE_HINT">Example: Transport costs</string>
+    <string name="ENREGISTREMENT">Registration completed</string>
+    <string name="MESSAGE_MAJ">Are you sure you want to change ?</string>
+    <string name="MIS_A_JOUR">Modification done</string>
+    <string name="MESSAGE_SUPPRESSION">Are you sure you want to delete?</string>
+    <string name="SUPPRESSION">Deletion completed</string>
+    <string name="PHOTO_AJOUTEE">Image added</string>
+    <string name="ALERT_AUTORISATION_REQUIS">You must authorize the application to perform this action</string>
+    <string name="ALERT_AJOUT_NOTE_VIDE_DEPENSE">Add a new expense and submit the expense report?</string>
+    <string name="ALERT_NOTE_INEXISTANT">No expense report exists for this expense. Would you like to create one ?</string>
+    <string name="ALERT_MODIFICATION_RISQUE_PERDU">Any unsaved changes will be lost. Would you quit ?</string>
+    <string name="ALERT_MAX_PICTURE">Maximum photos reached</string>
+    <string name="NEW_PICTURE">Add a picture</string>
+    <string name="SELECTIONNER_MODE">Select a mode</string>
+    <string name="DEPENSE_DE_TYPE">Type expenditure : </string>
+
+    <string name="CHARGEMENT_DES_DONNEES">Data loading</string>
+    <string name="VEUILLEZ_PATIENTER">Please wait</string>
+    <string name="PATIENTER_COMMUNICATION_SERVEUR">Communication with the server</string>
+    <string name="CHARGEMENT_DES">Loading of</string>
+    <string name="ERROR_GLOBAL">An error has been encountered</string>
+    <string name="ERROR_RECUPERATION_DONNEES">Error while retrieving data</string>
+    <string name="ERROR_COMMUNICATION_SERVER">An error occurred while communicating with the server</string>
+    <string name="AUCUNE_DONNEE">No data loaded</string>
+    <string name="AUCUN_PROJET">No existing project</string>
+    <string name="AUCUNE_NOTE_DE_FRAIS">No existing expense report</string>
+    <string name="AUCUNE_DEPENSE">No expense found</string>
+    <string name="AUCUNE_APPROVATION">No approvals yet</string>
+
+    <string name="ADRESSE_SERVICE">Service address</string>
+    <string name="VEUILLEZ_ENTRER_URL">Please enter a url</string>
+    <string name="LOGIN_BTN">LOGIN</string>
+    <string name="LOGIN_LBL">Login</string>
+    <string name="PASSWORD_LBL">Password</string>
+    <string name="IDENTIFIANTS_INCORRECT">Incorrect credentials</string>
+    <string name="DECONNEXION">Logout</string>
+    <string name="DECONNEXION_REUSSIE">Logout successful</string>
+
+    <string name="NO_RENT">No spent</string>
+    <string name="RENT">spent</string>
+    <string name="RENTS">spending</string>
+
+
+    <string name="date">Date</string>
+    <string name="description">Description</string>
+    <string name="ttc">Total Price</string>
+    <string name="ht">Total HT</string>
+    <string name="tva">TVA</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_username">Kevin Durant</string>
+    <string name="nav_header_usermail">nassim.sadikou@yopmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="LBL_INFORMATION">Information</string>
+    <string name="REFERENCE_NOTE">Note reference</string>
+    <string name="PROJET_CONCERNE">Project concerned :</string>
+    <string name="MODE_DE_REGLEMENT">Payment choice :</string>
+    <string name="INVITE">Guests</string>
+    <string name="DETAILS_INTERVENTION">Details of the intervention</string>
+    <string name="DUREE">duration</string>
+    <string name="PRIX_HORAIRE">Hourly price</string>
+    <string name="DETAILS_OPERATION">Details of the operation</string>
+    <string name="VEHICULE">Vehicle :</string>
+    <string name="LITRAGE">Litrage</string>
+    <string name="DETAILS_KILOMETRAGE">Mileage details</string>
+    <string name="DISTANCE">Distance</string>
+    <string name="DETAILS_VOL">Flight details</string>
+    <string name="NUMERO_DE_VOL">Flight number</string>
+    <string name="DATE_DEPART">Date of departure</string>
+    <string name="DATE_ARRIVEE">Arrival date</string>
+    <string name="COMPAGNIE">Company</string>
+    <string name="TRAJET">Path</string>
+    <string name="DETAILS_SEJOUR">Stay details</string>
+    <string name="NOMBRE_DE_NUIT">Number of nights</string>
+    <string name="DETAILS_TRAJET">Trip details</string>
+    <string name="NUMERO_TRAIN">Train number</string>
+    <string name="DETAILS_DEPENSE">Details of the expense</string>
+    <string name="MONTANT_HT">Amount HT</string>
+    <string name="MONTANT_TTC">Amount TTC</string>
+    <string name="MOTANT_TVA">Amount TVA</string>
+    <string name="MONTANT_TAXE">Amount Taxe</string>
+    <string name="DETAILS_LOCATION">Rental details</string>
+    <string name="MARQUE_VEHICULE">Vehicle brand</string>
+    <string name="MODELE_VEHICULE">Vehicle model</string>
+    <string name="LOUEUR">Renter</string>
+    <string name="ALERT_TOTAL_INCORRECT">Total cannot be equal to zero</string>
+
+</resources>

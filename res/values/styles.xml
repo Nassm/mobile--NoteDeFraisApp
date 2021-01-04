@@ -1,0 +1,162 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/prismaColorPrimary</item>
+        <item name="colorPrimaryDark">@color/prismaColorPrimaryDark</item>
+        <item name="colorAccent">@color/prismaColorPrimaryDark</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- dialogBuilder styles -->
+    <style name="dialogTheme" parent="android:Theme.DeviceDefault.Dialog">
+        <item name="android:background">@color/prismaColorPrimary</item>
+        <item name="android:divider">@color/prismaColorPrimary</item>
+    </style>
+
+    <!-- Navigation view styles -->
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.PopupTechinnov">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+    <!-- TextView -->
+    <style name="AppTheme.TextViewBig" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">@color/prismaColorPrimaryDark</item>
+        <item name="android:layout_marginBottom">15dp</item>
+    </style>
+
+    <style name="AppTheme.TextViewMedium" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">@color/prismaColorPrimaryDark</item>
+
+    </style>
+
+    <style name="AppTheme.TextViewSmall" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">@color/prismaColorPrimaryDark</item>
+    </style>
+
+    <!-- EditText -->
+    <style name="AppTheme.EditText" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">@color/prismaColorBlack</item>
+        <item name="android:textColorHint">@color/prismaColorPrimaryDark</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:lines">1</item>
+        <item name="android:inputType">text</item>
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:hint">@string/VALEUR_ATTENDUE</item>
+    </style>
+
+
+    <style name="AppTheme.Button.ValidateBig" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dimen_35</item>
+        <item name="android:layout_marginStart">@dimen/dimen_20</item>
+        <item name="android:layout_marginEnd">@dimen/dimen_20</item>
+        <item name="android:layout_marginTop">@dimen/dimen_35</item>
+        <item name="android:background">@color/prismaColorPrimary</item>
+        <item name="android:textColor">@color/prismaColorWhite</item>
+        <item name="android:text">@string/VALIDER</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="AppTheme.Button.ValidateMedium" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/dimen_35</item>
+        <item name="android:layout_marginStart">@dimen/dimen_10</item>
+        <item name="android:layout_marginEnd">@dimen/dimen_10</item>
+        <item name="android:layout_marginTop">@dimen/dimen_3</item>
+        <item name="android:layout_marginBottom">@dimen/dimen_3</item>
+        <item name="android:background">@color/prismaColorPrimary</item>
+        <item name="android:textColor">@color/prismaColorWhite</item>
+        <item name="android:text">@string/VALIDER</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.Button.Cancel" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/dimen_35</item>
+        <item name="android:layout_marginStart">@dimen/dimen_10</item>
+        <item name="android:layout_marginEnd">@dimen/dimen_10</item>
+        <item name="android:layout_marginTop">@dimen/dimen_3</item>
+        <item name="android:layout_marginBottom">@dimen/dimen_3</item>
+        <item name="android:background">@color/prismaColorNotSend</item>
+        <item name="android:textColor">@color/prismaColorWhite</item>
+        <item name="android:text">@string/ANNULER</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.Button.Delete" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/dimen_35</item>
+        <item name="android:layout_marginStart">@dimen/dimen_10</item>
+        <item name="android:layout_marginEnd">@dimen/dimen_10</item>
+        <item name="android:layout_marginTop">@dimen/dimen_3</item>
+        <item name="android:layout_marginBottom">@dimen/dimen_3</item>
+        <item name="android:background">@color/prismaColorCancel</item>
+        <item name="android:textColor">@color/prismaColorWhite</item>
+        <item name="android:text">@string/SUPPRIMER</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <!-- Image -->
+    <style name="AppTheme.ImageView">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:src">@drawable/ic_edit</item>
+    </style>
+
+    <!-- FAB -->
+    <style name="AppTheme.Fab">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/prismaColorPrimary</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <!-- View -->
+    <style name="AppTheme.SeparateLine">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/prismaColorPrimaryDark</item>
+        <item name="android:layout_marginTop">@dimen/dimen_8</item>
+        <item name="android:layout_marginBottom">@dimen/dimen_8</item>
+
+    </style>
+
+</resources>

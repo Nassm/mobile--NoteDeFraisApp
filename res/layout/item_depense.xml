@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/item_expensereport"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen_5"
+        android:layout_marginTop="@dimen/dimen_5"
+        android:layout_marginLeft="@dimen/dimen_3"
+        android:layout_marginRight="@dimen/dimen_3">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/rentCardLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            android:layout_marginStart="@dimen/dimen_10"
+            android:layout_marginTop="@dimen/dimen_8"
+            android:elevation="10dp">
+
+            <ImageView
+                android:id="@+id/rentLogo"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="@dimen/dimen_0"
+                android:layout_marginBottom="@dimen/dimen_0"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:scaleType="fitXY">
+            </ImageView>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/rentName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_12"
+            android:layout_marginStart="@dimen/dimen_15"
+            android:layout_marginEnd="@dimen/dimen_3"
+            android:layout_toEndOf="@+id/rentCardLogo"
+            android:layout_toStartOf="@+id/rentTTC"
+            android:textSize="@dimen/dimen_15"
+            android:textColor="@color/prismaColorPrimaryDark"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+        <TextView
+            android:id="@+id/rentDate"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rentName"
+            android:layout_marginStart="@dimen/dimen_15"
+            android:layout_marginTop="@dimen/dimen_5"
+            android:layout_toEndOf="@+id/rentCardLogo"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/prismaColorBlack"
+            android:textSize="@dimen/dimen_10"
+            android:typeface="normal" />
+
+        <TextView
+            android:id="@+id/rentTTC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_30"
+            android:layout_marginEnd="@dimen/dimen_3"
+            android:layout_toStartOf="@+id/rentCurrency"
+            android:textSize="@dimen/dimen_18"
+            android:gravity="center"
+            android:typeface="monospace"
+            android:textColor="@color/prismaColorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/rentCurrency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/dimen_30"
+            android:layout_marginRight="@dimen/dimen_10"
+            android:text="€"
+            android:gravity="center"
+            android:textSize="@dimen/dimen_15"
+            android:typeface="monospace"
+            android:textColor="@color/prismaColorPrimaryDark"
+            android:shadowColor="@color/prismaColorPrimaryDeepDark"
+            android:shadowRadius="5"
+            android:shadowDx="0.5"
+            android:shadowDy="0.5"
+            tools:ignore="RtlHardcoded" />
+
+        <View
+            style="@style/AppTheme.SeparateLine"
+            android:layout_below="@+id/rentCardLogo"
+            android:layout_marginBottom="@dimen/dimen_0"
+            android:layout_marginTop="@dimen/dimen_8"
+            android:layout_marginLeft="@dimen/dimen_10"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

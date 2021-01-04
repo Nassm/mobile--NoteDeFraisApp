@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="APP_NAME">Note de frais</string>
+
+    <string name="PROFIL">Perfil</string>
+    <string name="PROJET">Els meus projectes</string>
+    <string name="NDF">Els meus informes de despeses</string>
+    <string name="APPROBATION">Les meves aprovacions</string>
+    <string name="CONTACT">Contacte</string>
+    <string name="A_PROPOS">Sobre</string>
+    <string name="APPUYER_DE_NOUVEAU_POUR_QUITTER">Prem de nou per sortir</string>
+    <string name="CONTACTEZ_NOUS">Contacti\'ns</string>
+    <string name="PERMISSION_APPEL">Heu d’autoritzar l\’aplicació per fer una trucada</string>
+    <string name="AUCUN_NUMERO">Contacte no disponible en aquest moment</string>
+    <string name="APPELER_ASSISTANCE">Convocatòria d’assistència :</string>
+    <string name="APROPOS_COPYRIGHT">Copyright PrismaSoft - Tots els drets reservats</string>
+    <string name="APROPOS_TEXT">Avís : aquest programari està protegit per la llei de copyright i per les convencions internacionals.
+        Queda totalment prohibida qualsevol reproducció o distribució parcial o total d’aquest programari, de qualsevol manera.
+        Qualsevol que no respecti aquestes disposicions serà culpable del delicte de falsificació i serà responsable de les sancions penals previstes per la llei.
+    </string>
+
+    <string name="AJOUTER">Afegir</string>
+    <string name="VALIDER">Validar</string>
+    <string name="ANNULER">Cancellar</string>
+    <string name="ENVOYER">Enviar</string>
+    <string name="MODIFIER">Canvi</string>
+    <string name="SOUMETTRE">Presentar</string>
+    <string name="SUPPRIMER">Remove</string>
+    <string name="RECHERCHER">Buscar</string>
+    <string name="RETOUR">Retorn</string>
+    <string name="OUI">si</string>
+    <string name="NON">no</string>
+    <string name="COMPRIS">Ho entenc!</string>
+    <string name="TOUT">Tots</string>
+    <string name="VALEUR_ATTENDUE">…</string>
+    <string name="INPUT_MISSING">Ompliu els camps buits</string>
+    <string name="AMOUNT_ERROR">Els totals no són els mateixos.</string>
+    <string name="INPUT_CATEGORY_MISSING">Heu d\'emplenar les dades del tipus de despesa</string>
+    <string name="ERROR_SAVE_DEPENSE">S\'ha produït un error en enregistrar la despesa</string>
+    <string name="SCAN_ERROR">No es podia llegir correctament alguna informació del bitllet. Comproveu el formulari abans de validar-lo</string>
+    <string name="CATEGORIE_DEPENSE">Categoria de despeses</string>
+
+    <string name="NEW_ENREGISTREMENT">Afegiu un registre</string>
+    <string name="NEW_DEPENSE">Nova despesa per a una nota existent</string>
+    <string name="NEW_DEPENSE_HINT">Desplaçar-se per seleccionar una nota</string>
+    <string name="NEW_NOTE">Nou informe de despeses</string>
+    <string name="NEW_NOTE_HINT">Exemple : Costos de transport</string>
+    <string name="ENREGISTREMENT">Inscripció finalitzada</string>
+    <string name="MESSAGE_MAJ">Estàs segur que vols canviar?</string>
+    <string name="MIS_A_JOUR">Modificació realitzada</string>
+    <string name="MESSAGE_SUPPRESSION">Confirmeu que voleu suprimir-lo?</string>
+    <string name="SUPPRESSION">S\'ha finalitzat la supressió</string>
+    <string name="PHOTO_AJOUTEE">Imatge afegida</string>
+    <string name="ALERT_AUTORISATION_REQUIS">Heu d\'autoritzar l\'aplicació per realitzar aquesta acció</string>
+    <string name="ALERT_AJOUT_NOTE_VIDE_DEPENSE">Afegiu una nova despesa i envieu l’informe de despeses?</string>
+    <string name="ALERT_NOTE_INEXISTANT">No hi ha cap informe de despeses per a aquesta despesa. Voleu crear-ne un?</string>
+    <string name="ALERT_MODIFICATION_RISQUE_PERDU">Es perdran els canvis no guardats. Vos deixaríeu?</string>
+    <string name="ALERT_MAX_PICTURE">S\'han aconseguit fotografies màximes</string>
+    <string name="NEW_PICTURE">Afegiu una foto</string>
+    <string name="SELECTIONNER_MODE">Seleccioneu un mode</string>
+    <string name="DEPENSE_DE_TYPE">Tipus de despesa :</string>
+
+    <string name="CHARGEMENT_DES_DONNEES">Càrrega de dades</string>
+    <string name="VEUILLEZ_PATIENTER">Espereu</string>
+    <string name="PATIENTER_COMMUNICATION_SERVEUR">Comunicació amb el servidor</string>
+    <string name="CHARGEMENT_DES">Carrega de</string>
+    <string name="ERROR_GLOBAL">S\'ha produït un error</string>
+    <string name="ERROR_RECUPERATION_DONNEES">S\'ha produït un error en recuperar dades</string>
+    <string name="ERROR_COMMUNICATION_SERVER">S\'ha produït un error en comunicar-se amb el servidor</string>
+    <string name="AUCUNE_DONNEE">No s\'han carregat dades</string>
+    <string name="AUCUN_PROJET">No hi ha cap projecte existent</string>
+    <string name="AUCUNE_NOTE_DE_FRAIS">No hi ha cap informe de despeses existent</string>
+    <string name="AUCUNE_DEPENSE">No s\'ha trobat cap despesa</string>
+    <string name="AUCUNE_APPROVATION">No hi ha aprovacions encara</string>
+
+    <string name="ADRESSE_SERVICE">Adreça del servei</string>
+    <string name="VEUILLEZ_ENTRER_URL">Introduïu una URL</string>
+    <string name="LOGIN_BTN">CONEGUI</string>
+    <string name="LOGIN_LBL">login</string>
+    <string name="PASSWORD_LBL">Contrasenya</string>
+    <string name="IDENTIFIANTS_INCORRECT">Credencials incorrectes</string>
+    <string name="DECONNEXION">Tanqueu la sessió</string>
+    <string name="DECONNEXION_REUSSIE">La sessió s\'ha tancat correctament</string>
+
+    <string name="NO_RENT">Sense despeses</string>
+    <string name="RENT">despesa</string>
+    <string name="RENTS">despesa</string>
+
+    <string name="date">Data</string>
+    <string name="description">Descripció</string>
+    <string name="ttc">Total amb impostos</string>
+    <string name="ht">HT total</string>
+    <string name="tva">IVA</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_username">Kevin Durant</string>
+    <string name="nav_header_usermail">durant@yopmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="LBL_INFORMATION">Informació</string>
+    <string name="REFERENCE_NOTE">Referència de la nota</string>
+    <string name="PROJET_CONCERNE">Projecte en qüestió :</string>
+    <string name="MODE_DE_REGLEMENT">Forma de pagament :</string>
+    <string name="INVITE">Els clients</string>
+    <string name="DETAILS_INTERVENTION">Detalls de la intervenció</string>
+    <string name="DUREE">Durada</string>
+    <string name="PRIX_HORAIRE">Preu per hora</string>
+    <string name="DETAILS_OPERATION">Detalls de l\'operació</string>
+    <string name="VEHICULE">Vehicle :</string>
+    <string name="LITRAGE">Litrage</string>
+    <string name="DETAILS_KILOMETRAGE">Detalls de milles</string>
+    <string name="DISTANCE">distància</string>
+    <string name="DETAILS_VOL">Détails del vol</string>
+    <string name="NUMERO_DE_VOL">Número du vol</string>
+    <string name="DATE_DEPART">Consulteu la data</string>
+    <string name="DATE_ARRIVEE">Data d’arribada</string>
+    <string name="COMPAGNIE">Empresa</string>
+    <string name="TRAJET">Camí</string>
+    <string name="DETAILS_SEJOUR">Detalls de l\'estada</string>
+    <string name="NOMBRE_DE_NUIT">Nombre de nits</string>
+    <string name="DETAILS_TRAJET">Detalls del viatge</string>
+    <string name="NUMERO_TRAIN">Número de tren</string>
+    <string name="DETAILS_DEPENSE">Detalls de la despesa</string>
+
+    <string name="MONTANT_HT">Import excl.</string>
+    <string name="MONTANT_TTC">Import inclòs impost</string>
+    <string name="MOTANT_TVA">Import de l\'IVA</string>
+    <string name="MONTANT_TAXE">Import de l’impost</string>
+    <string name="DETAILS_LOCATION">Detalls de lloguer</string>
+    <string name="MARQUE_VEHICULE">Marca de vehicles</string>
+    <string name="MODELE_VEHICULE">Model de vehicle</string>
+    <string name="LOUEUR">Inquilí</string>
+    <string name="ALERT_TOTAL_INCORRECT">El total no pot ser zero</string>
+
+
+</resources>

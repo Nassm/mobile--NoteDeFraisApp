@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView
+    style="@style/AppTheme.TextViewSmall"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/textview_spinner_bg"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_35"
+    android:textColor="@color/prismaColorPrimaryDark"
+    android:singleLine="true"
+    android:textAlignment="center"
+    android:gravity="center"
+    android:textSize="@dimen/dimen_12"
+    android:ellipsize="marquee"
+    android:angle="270"
+    tools:ignore="SpUsage" />
+
+

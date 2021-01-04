@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_project"
+            android:icon="@drawable/ic_done"
+            android:title="@string/PROJET" />
+        <item
+            android:id="@+id/menu_expense_report"
+            android:icon="@drawable/ic_ndf"
+            android:title="@string/NDF" />
+        <item
+            android:id="@+id/menu_approval"
+            android:icon="@drawable/ic_approval"
+            android:title="@string/APPROBATION" />
+    </group>
+
+    <item android:title="Support">
+        <menu>
+            <item
+                android:id="@+id/menu_about"
+                android:icon="@drawable/ic_about"
+                android:title="@string/A_PROPOS" />
+        </menu>
+    </item>
+</menu>
